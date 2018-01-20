@@ -7,10 +7,11 @@
     height: auto;
 }
 
-.yasd {
-  margin-top: 20px
+.rel {
+  margin-bottom: 50px;
+  color: #a8a8a8;
 }
 
-.tasd {
-  margin-bottom: 50px;
+.yasd {
+  margin-top: 20px
 }
