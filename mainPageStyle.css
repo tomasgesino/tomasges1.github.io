@@ -1,17 +1,19 @@
-.yas {
-  margin-top: 40px;
+.idk {
+  text-align: center;
+  margin-top: 300px;
 }
 
-.fdf {
-    width: 30%;
-    height: auto;
+.name {
+  text-align: center;
+  margin-bottom: 100%;
 }
 
-.rel {
-  margin-bottom: 50px;
-  color: #a8a8a8;
+.image {
+  width: 5%;
+  height: 5%;
 }
 
-.yasd {
-  margin-top: 20px;
+#b {
+  width: 100%;
+  height: 40%;
 }
