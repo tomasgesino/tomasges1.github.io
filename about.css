@@ -1,0 +1,30 @@
+.image {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.title {
+  text-align: center;
+  margin-top: 30px;
+
+}
+
+.description {
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* unvisited link */
+a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: blue;
+}
