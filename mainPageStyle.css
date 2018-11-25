@@ -6,9 +6,9 @@
 }
 
 .appcard {
-  margin-top: 50px;
-  margin-left: 70px;
-  margin-right: 70px;
+  margin-top: 3%;
+  margin-left: 6%;
+  margin-right: 6%;
 }
 
 .card {
@@ -18,7 +18,8 @@ color: #292c2f;
 
 
 .spotifyplay {
-  margin-left: 90px;
+  margin-top: 2%;
+  margin-left: 10%;
 }
 
 body {
