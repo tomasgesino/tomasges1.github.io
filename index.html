@@ -20,16 +20,48 @@
 
   	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.51.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.51.0/mapbox-gl.css' rel='stylesheet' />
+    <style>
+        body { margin:0; padding:0; }
+        #map { position:absolute; top:0; bottom:0; width:100%; }
+    </style>
+
     <title>Tomas Gesino</title>
 
   </head>
   <body>
 
+    <div class="navtext">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navtext navbar-brand" href="#">Tomas Gesino</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Apps</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Music</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+            </ul>
+          </div>
+      </nav>
+    </div>
+
     <div class="title">
       <h1 class="display-3">Apps</h1>
     </div>
-	  
-	<div class="appcard">
+
+    <div class="appcard">
       <div class="card mb-3">
         <!-- 512px x 150px <img class="card-img-top" src="Image"> -->
         <div class="card-body">
@@ -55,12 +87,20 @@
       </div>
     </div>
 
-    <div class="title">
-      <h1 class="display-3">Music</h1>
-    </div>
 
-    <div class="spotifyplay">
-      <iframe src="https://open.spotify.com/embed/user/tomas.gesino01/playlist/2DhI4vQ1U49qMWwXiOVMhr" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+    <div class="container">
+      <div class="title">
+        <h1 class="display-3">Music</h1>
+      </div>
+      <div class="row">
+        <div class="spotifyplayone">
+          <iframe src="https://open.spotify.com/embed/user/tomas.gesino01/playlist/2DhI4vQ1U49qMWwXiOVMhr" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        </div>
+        <div class="spotifyplay">
+          <iframe src="https://open.spotify.com/embed/user/tomas.gesino01/playlist/38rRW5p5b2hbTqkx5a4vuR" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        </div>
+      </div>
     </div>
 
     <footer class="footer-distributed">

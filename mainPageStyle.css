@@ -17,9 +17,14 @@ color: #292c2f;
 }
 
 
+.spotifyplayone {
+  margin-top: 5%;
+  margin-left: 16%;
+  margin-right: 15%;
+}
+
 .spotifyplay {
-  margin-top: 2%;
-  margin-left: 10%;
+  margin-top: 5%;
 }
 
 body {
