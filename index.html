@@ -42,8 +42,6 @@
     <h4 style="font-weight:600">• <a href="https://twitter.com/gesinotomas">twitter</a></h4>
     <h4 style="font-weight:600">• <a style="color:#c7C9c7" href=mailto:tomas@wearlyapp.com>tomas@wearlyapp.com</a></h4>
 
-    <img src="yllaspace/images/waves.jpg" height="100%" width="100%"/>
-
     <h3 style="font-weight:600">writing</h3>
     <h4 style="font-weight:600">• <a href="https://research.contrary.com/reports/goat">goat</a></h4>
     <h4 style="font-weight:600">• <a href="https://research.contrary.com/reports/relativity-space">relativity space</a></h4>
@@ -53,6 +51,55 @@
     <h4 style="font-weight:600">• <a href="https://research.contrary.com/reports/revolut">revolut</a></h4>
     <h4 style="font-weight:600">• <a href="https://research.contrary.com/reports/superhuman">superhuman</a></h4>
 
+  <pre id="dysonSphere" style="font-family: monospace; line-height: 1; white-space: pre; font-size: 10px;">
+  </pre>
+
+  <script>
+    const frames = [
+      `
+      .---.
+    /       \\
+   |  O   O  |
+   |    <    |
+    \\  ___  /
+      '---'
+      `,
+      `
+       .---.
+     /   |   \\
+    |  O | O  |
+    |    V    |
+     \\   |   /
+       '---'
+      `,
+      `
+        .---.
+      /   |   \\
+     |  O - O  |
+     |    |    |
+      \\   |   /
+        '---'
+      `,
+      `
+       .---.
+     /   |   \\
+    |  O | O  |
+    |    ^    |
+     \\   |   /
+       '---'
+      `
+    ];
+
+    let currentFrame = 0;
+    const dysonSphere = document.getElementById('dysonSphere');
+
+    function animate() {
+      dysonSphere.textContent = frames[currentFrame];
+      currentFrame = (currentFrame + 1) % frames.length;
+    }
+
+    setInterval(animate, 250);
+  </script>
 
   </body>
 </html>
