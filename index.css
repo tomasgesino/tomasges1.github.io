@@ -10,6 +10,11 @@ body {
   background-color: #101113;
 }
 
+a {
+  color: #c7C9c7;
+  text-decoration: none; /* no underline */
+}
+
 a:visited{
   color: #c7C9c7;
   text-decoration: none; /* no underline */
