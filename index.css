@@ -7,16 +7,11 @@ body {
   margin-left: 10%;
   margin-right: 50%;
   color: white;
-  background-color: black;
-}
-
-.page-links {
-  color: blue;
-  text-decoration: none; /* no underline */
+  background-color: #101113;
 }
 
 a:visited{
-  color: blue;
+  color: #c7C9c7;
   text-decoration: none; /* no underline */
 }
 
@@ -26,4 +21,12 @@ a:hover {
 
 .italic-break {
   font-style: italic;
+}
+
+@media (max-width: 800px) {
+  body {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 65%;
+  }
 }
