@@ -1,3 +1,4 @@
+
 * {
   font-family: 'Inter', sans-serif;
   scroll-behavior: none;
@@ -12,7 +13,7 @@ html, body {
 body {
   margin-top: 3%;
   margin-left: 10%;
-  margin-right: 50%;
+  margin-right: 45%;
   color: white;
   background-color: #101113;
 }
